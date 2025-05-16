@@ -12,11 +12,9 @@ print("Hello, " + name + "!")  # Print greeting with name
 # Dimensions
 length = 5
 width = 3
-
 # Calculations
 area = length * width
 perimeter = 2 * (length + width)
-
 # Output
 print("Area:", area)
 print("Perimeter:", perimeter)
@@ -26,7 +24,6 @@ print("Perimeter:", perimeter)
 # Input
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
-
 # Comparison
 if a > b:
     print("First number is greater.")
@@ -38,7 +35,6 @@ else:
 
 # Write a script that checks if a given year is a leap year (divisible by 4, but not by 100 unless also divisible by 400). 
 year = int(input("Enter a year: "))
-
 # Leap year logic
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     print(year, "is a leap year.")
